@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 
 
 # Uncomment the following to test the script locally:
-# from config import consumer_key, consumer_secret, access_token, access_token_secret
+from config import consumer_key, consumer_secret, access_token, access_token_secret
 
 # Get config variable from environment variables
 consumer_key = os.environ.get("consumer_key")
